@@ -25,7 +25,11 @@
 
 ## About
 
-Service for notifications that approaches the Dependency Injection and Dependency Inversion concepts with a brief about how NestJS works and how it helps in backend application development. Also was implemented Unitary Tests using Jest and producer/consumer messaging using Kafka for better understanding of asynchronous communication between microservices. Prisma used as the ORM of this application.
+Service for notifications that approaches the Dependency Injection and Dependency Inversion concepts with a brief about how NestJS works and how it helps in backend application development. 
+
+Also was implemented Unitary Tests using Jest and producer/consumer messaging using Kafka for better understanding of asynchronous communication between microservices. Prisma used as the ORM of this application.
+
+Use [kafka-producer](https://github.com/edjust/kafka-producer) repository to send events.
 
 ## Installation
 
